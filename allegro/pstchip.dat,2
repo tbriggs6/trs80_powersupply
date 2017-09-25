@@ -1,0 +1,258 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Jul-09-2014 at 17:32:41}
+primitive 'GBU4K_GBU4K_GBU4K';
+  pin
+    'DC-':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'AC#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'AC#3':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'DC+':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='gbu4k';
+    JEDEC_TYPE='gbu4k';
+    VALUE='gbu4k';
+  end_body;
+end_primitive;
+primitive 'C_CAP300_1N';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='cap300';
+    VALUE='1n';
+  end_body;
+end_primitive;
+primitive 'C_CAP196_4.7UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='cap196';
+    VALUE='4.7uF';
+  end_body;
+end_primitive;
+primitive 'C_CAP196_1N';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C';
+    JEDEC_TYPE='cap196';
+    VALUE='1n';
+  end_body;
+end_primitive;
+primitive 'C_ELECT_CAP196_10UF';
+  pin
+    '+':
+      PIN_NUMBER='(P)';
+      PINUSE='UNSPEC';
+    '-':
+      PIN_NUMBER='(N)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='C_elect';
+    JEDEC_TYPE='cap196';
+    VALUE='10uF';
+  end_body;
+end_primitive;
+primitive 'FUSE-FC211_FUSE_FC211_FUSE-FC21';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='fuse-fc211';
+    JEDEC_TYPE='fuse_fc211';
+    VALUE='fuse-fc211';
+  end_body;
+end_primitive;
+primitive 'CON1_18AWG_HOLE_CON1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON1';
+    JEDEC_TYPE='18awg_hole';
+    VALUE='CON1';
+  end_body;
+end_primitive;
+primitive 'HEADER 1_MOUNT_6_32_GND_CHASSIS';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 1';
+    JEDEC_TYPE='mount_6_32_gnd';
+    VALUE='CHASSIS GND';
+  end_body;
+end_primitive;
+primitive 'HEADER 1_MOUNT_TH_HEADER 1';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 1';
+    JEDEC_TYPE='mount_th';
+    VALUE='HEADER 1';
+  end_body;
+end_primitive;
+primitive 'HEADER 2_JUMPER2_FAN';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 2';
+    JEDEC_TYPE='jumper2';
+    VALUE='FAN';
+  end_body;
+end_primitive;
+primitive 'L_INDUCTOR-MISC_10UH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='L';
+    JEDEC_TYPE='inductor-misc';
+    VALUE='10uH';
+  end_body;
+end_primitive;
+primitive 'TRIAD-VPP28-2000_TRIAD-VPP-XFMR';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Triad-VPP28-2000';
+    JEDEC_TYPE='triad-vpp-xfmr';
+    VALUE='Triad-VPP28-2000';
+  end_body;
+end_primitive;
+primitive 'LM7806_LM7812ACT_LM7806 6V REG';
+  pin
+    'IN':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'OUT':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='LM7806';
+    JEDEC_TYPE='lm7812act';
+    VALUE='LM7806 6V REG';
+  end_body;
+end_primitive;
+primitive 'LM7812ACT 12V REG._LM7812ACT_LM';
+  pin
+    'IN':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'OUT':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='lm7812act 12v reg.';
+    JEDEC_TYPE='lm7812act';
+    VALUE='lm7812act 12v reg.';
+  end_body;
+end_primitive;
+primitive 'LM7905CT -5V REGULATOR_LM7812AC';
+  pin
+    'IN':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+    'OUT':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'GND':
+      PIN_NUMBER='(1)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='LM7905CT -5V Regulator';
+    JEDEC_TYPE='lm7812act';
+    VALUE='LM7905CT -5V Regulator';
+  end_body;
+end_primitive;
+END.

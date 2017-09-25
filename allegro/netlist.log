@@ -1,0 +1,19 @@
+{ Using PSTWRITER 16.6.0 d001Jul-10-2014 at 10:00:23 }
+
+#1 WARNING(ORCAP-36042): Pin "AC" is renamed to "AC#2" as visible power pin of same name already exists in Package gbu4k , BR1: PSUPPLY-REV2, AC_HISIDE (5.10, 1.90).
+#2 WARNING(ORCAP-36042): Pin "AC" is renamed to "AC#3" as visible power pin of same name already exists in Package gbu4k , BR1: PSUPPLY-REV2, AC_HISIDE (5.10, 1.90).
+#3 WARNING(ORCAP-36006): Part Name "FUSE-FC211_FUSE_FC211_FUSE-FC211" is renamed to "FUSE-FC211_FUSE_FC211_FUSE-FC21".
+#4 WARNING(ORCAP-36006): Part Name "HEADER 1_MOUNT_6_32_GND_CHASSIS GND" is renamed to "HEADER 1_MOUNT_6_32_GND_CHASSIS".
+#5 WARNING(ORCAP-36006): Part Name "TRIAD-VPP28-2000_TRIAD-VPP-XFMR_TRIAD-VPP28-2000" is renamed to "TRIAD-VPP28-2000_TRIAD-VPP-XFMR".
+#6 WARNING(ORCAP-36006): Part Name "LM7812ACT 12V REG._LM7812ACT_LM7812ACT 12V REG." is renamed to "LM7812ACT 12V REG._LM7812ACT_LM".
+#7 WARNING(ORCAP-36006): Part Name "LM7905CT -5V REGULATOR_LM7812ACT_LM7905CT -5V REGULATOR" is renamed to "LM7905CT -5V REGULATOR_LM7812AC".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\ORCAD\PROJECTS\TRS80_POWER\allegro/pstchip.dat
+
+Loading... C:\ORCAD\PROJECTS\TRS80_POWER\allegro/pstchip.dat
+
+Loading... C:\ORCAD\PROJECTS\TRS80_POWER\allegro/pstxprt.dat
+
+Loading... C:\ORCAD\PROJECTS\TRS80_POWER\allegro/pstxnet.dat
+packaging the design view...

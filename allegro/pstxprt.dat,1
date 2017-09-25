@@ -1,0 +1,260 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jul-09-2014 at 17:20:40 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='TRS80_POWER';
+ POST_TIME='Oct 28 2013 13:12:55';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ BR1 'GBU4K_GBU4K_GBU4K':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS22785@BRIGGS.GBU4K.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins22785@briggs.\gbu4k.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins22785@briggs.\gbu4k.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'C_CAP300_1N':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS26547@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins26547@analog.\c.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins26547@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'C_CAP300_4.7UF':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24405@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24405@analog.\c.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24405@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'C_CAP300_1N':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24389@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24389@analog.\c.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24389@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'C_CAP300_4.7UF':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS25349@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins25349@analog.\c.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins25349@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'C_CAP300_1N':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS25333@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins25333@analog.\c.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins25333@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'C_ELECT_POLCAP300_10UF':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24359@ANALOG.C_ELECT.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24359@analog.\c_elect.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24359@analog.\c_elect.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'C_CAP300_4.7UF':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24706@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24706@analog.\c.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24706@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'C_CAP300_4.7UF':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24726@ANALOG.C.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24726@analog.\c.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24726@analog.\c.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'C_ELECT_POLCAP300_10UF':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24337@ANALOG.C_ELECT.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24337@analog.\c_elect.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24337@analog.\c_elect.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ F1 'FUSE-FC211_FUSE_FC211_FUSE-FC21':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS22452@BRIGGS.FUSE-FC211.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins22452@briggs.\fuse-fc211.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins22452@briggs.\fuse-fc211.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CON1_18AWG_HOLE_CON1':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS22390@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins22390@connector.\con1.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins22390@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON1_18AWG_HOLE_CON1':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS22402@CONNECTOR.CON1.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins22402@connector.\con1.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins22402@connector.\con1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER 1_MOUNT_6_32_GND_CHASSIS':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS25936@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins25936@connector.\header 1.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins25936@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HEADER 1_MOUNT_TH_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS26107@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins26107@connector.\header 1.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins26107@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HEADER 1_MOUNT_TH_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS26121@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins26121@connector.\header 1.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins26121@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'HEADER 1_MOUNT_TH_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS26135@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins26135@connector.\header 1.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins26135@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'HEADER 1_MOUNT_TH_HEADER 1':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS26149@CONNECTOR.HEADER 1.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins26149@connector.\header 1.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins26149@connector.\header 1.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'HEADER 2_JUMPER2_FAN':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS25497@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins25497@connector.\header 2.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins25497@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'L_INDUCTOR-MISC_10UH':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS22973@ANALOG.L.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins22973@analog.\l.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins22973@analog.\l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TR1 'TRIAD-VPP28-2000_TRIAD-VPP-XFMR':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS22643@BRIGGS.TRIAD-VPP28-2000.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins22643@briggs.\triad-vpp28-2000.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page1_ins22643@briggs.\triad-vpp28-2000.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'LM7806_LM7812ACT_LM7806 6V REG':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS25381@BRIGGS.LM7806.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins25381@briggs.\lm7806.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins25381@briggs.\lm7806.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'LM7806_LM7812ACT_LM7806 6V REG':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24911@BRIGGS.LM7806.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24911@briggs.\lm7806.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24911@briggs.\lm7806.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U3 'LM7812ACT 12V REG._LM7812ACT_LM':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24640@BRIGGS.LM7812ACT 12V REG..NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24640@briggs.\lm7812act 12v reg..normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24640@briggs.\lm7812act 12v reg..normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U4 'LM7905CT -5V REGULATOR_LM7812AC':;
+
+SECTION_NUMBER 1
+ '@TRS80_POWER.PSUPPLY-REV2(SCH_1):INS24213@BRIGGS.LM7905CT -5V REGULATOR.NORMAL(CHIPS)':
+ C_PATH='@trs80_power.\psupply-rev2\(sch_1):ins24213@briggs.\lm7905ct -5v regulator.normal\(chips)',
+ P_PATH='@trs80_power.\psupply-rev2\(sch_1):page_ins24213@briggs.\lm7905ct -5v regulator.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

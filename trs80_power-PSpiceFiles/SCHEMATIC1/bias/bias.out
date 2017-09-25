@@ -1,0 +1,133 @@
+
+**** 09/24/13 14:16:09 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\ORCAD\projects\trs80_power\trs80_power-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\tbriggs\AppData\Local\SPB_16.6\\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2.4s 2 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TRS80_POWER
+.EXTERNAL OUTPUT ACout+
+.EXTERNAL OUTPUT ACout-
+X_TX1    N15066 N15079 ACOUT+ ACOUT- SCHEMATIC1_TX1 
+V_V1         N15059 N15079  
++SIN 0 170 60 0 0 0
+R_R1         N15059 N15066  10 TC=0,0 
+R_R2         ACOUT- ACOUT+  1k TC=0,0 
+R_R3         N15079 ACOUT-  1M TC=0,0 
+D_D1         0 ACOUT+ Dbreak 
+D_D2         ACOUT+ N20589 Dbreak 
+D_D3         0 ACOUT- Dbreak 
+D_D4         ACOUT- N20589 Dbreak 
+C_C1         0 N20589  200uF  TC=0,0 
+R_R4         N21450 N20589  1k TC=0,0 
+D_D5         0 N21450 D1N4678 
+C_C2         0 N20589  200uF  TC=0,0 
+
+.subckt SCHEMATIC1_TX1 1 2 3 4  
+K_TX1         L1_TX1 L2_TX1 1
+L1_TX1         1 2 100
+L2_TX1         3 4 1
+.ends SCHEMATIC1_TX1
+
+**** RESUMING bias.cir ****
+.END
+
+**** 09/24/13 14:16:09 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\ORCAD\projects\trs80_power\trs80_power-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          D1N4678         
+          IS   10.000000E-15  629.965300E-12 
+           N                    2.15352      
+         ISR                    5.577980E-06 
+          NR                    4.00204      
+          BV                    1.986        
+         IBV                     .066506     
+          RS     .1             1.475356E-06 
+          TT                  193.900000E-09 
+         CJO  100.000000E-15  170.000000E-12 
+          VJ                     .75         
+           M                     .3333       
+
+
+**** 09/24/13 14:16:09 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\ORCAD\projects\trs80_power\trs80_power-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(ACOUT+)-75.08E-18 (ACOUT-)-75.08E-18 (N15059)-75.08E-18 (N15066)-75.08E-18     
+
+(N15079)-75.08E-18 (N20589)-147.3E-18 (N21450)-147.3E-18 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 09/24/13 14:16:09 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\ORCAD\projects\trs80_power\trs80_power-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

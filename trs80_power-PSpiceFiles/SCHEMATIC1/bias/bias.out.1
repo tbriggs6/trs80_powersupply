@@ -1,0 +1,66 @@
+
+**** 09/24/13 14:09:07 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\ORCAD\projects\trs80_power\trs80_power-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\tbriggs\AppData\Local\SPB_16.6\\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 2.02s 2 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TRS80_POWER
+.EXTERNAL OUTPUT ACout+
+.EXTERNAL OUTPUT ACout-
+X_TX1    N15066 0 ACOUT+ ACOUT- SCHEMATIC1_TX1 
+V_V1         N15059 0  
++SIN 0 170 60 0 0 0
+R_R1         N15059 N15066  10 TC=0,0 
+R_R2         ACOUT- ACOUT+  1k TC=0,0 
+R_R3         0 ACOUT-  1M TC=0,0 
+R_R4         N17110 N17082  1k TC=0,0 
+V_V2         N19507 N19495  
++SIN 0 170 60 0 0 0
+D_D1         N19507 N17082 Dbreak 
+D_D2         N19495 N17082 Dbreak 
+D_D3         N17110 N19507 Dbreak 
+D_D4         N17110 N19495 Dbreak 
+
+.subckt SCHEMATIC1_TX1 1 2 3 4  
+K_TX1         L1_TX1 L2_TX1 1
+L1_TX1         1 2 100
+L2_TX1         3 4 1
+.ends SCHEMATIC1_TX1
+
+**** RESUMING bias.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N17110 is floating
+
+ERROR(ORPSIM-15142): Node N17082 is floating
+
+ERROR(ORPSIM-15142): Node N19507 is floating
+
+ERROR(ORPSIM-15142): Node N19495 is floating
+

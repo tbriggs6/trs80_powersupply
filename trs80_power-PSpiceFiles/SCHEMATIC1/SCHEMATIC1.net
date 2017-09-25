@@ -1,0 +1,23 @@
+* source TRS80_POWER
+.EXTERNAL OUTPUT ACout+
+.EXTERNAL OUTPUT ACout-
+X_TX1    N15066 N15079 ACOUT+ ACOUT- SCHEMATIC1_TX1 
+V_V1         N15059 N15079  
++SIN 0 170 60 0 0 0
+R_R1         N15059 N15066  10 TC=0,0 
+R_R2         ACOUT- ACOUT+  1k TC=0,0 
+R_R3         N15079 ACOUT-  1M TC=0,0 
+D_D1         0 ACOUT+ Dbreak 
+D_D2         ACOUT+ N20589 Dbreak 
+D_D3         0 ACOUT- Dbreak 
+D_D4         ACOUT- N20589 Dbreak 
+C_C1         0 N20589  200uF  TC=0,0 
+R_R4         N21450 N20589  1k TC=0,0 
+D_D5         0 N21450 D1N4678 
+C_C2         0 N20589  200uF  TC=0,0 
+
+.subckt SCHEMATIC1_TX1 1 2 3 4  
+K_TX1         L1_TX1 L2_TX1 1
+L1_TX1         1 2 100
+L2_TX1         3 4 1
+.ends SCHEMATIC1_TX1
